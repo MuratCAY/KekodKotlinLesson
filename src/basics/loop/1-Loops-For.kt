@@ -4,7 +4,7 @@ package basics.loop
 //┌────────────────────────────┐
 //│ Created by Gökhan ÖZTÜRK   │
 //│ ────────────────────────── │
-//│ GokhanOZTURK@AndroidEdu.IO │            
+//│ GokhanOZTURK@AndroidEdu.IO │
 //│ ────────────────────────── │
 //│ 22.05.2021                 │
 //└────────────────────────────┘

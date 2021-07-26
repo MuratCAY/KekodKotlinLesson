@@ -129,6 +129,7 @@ fun main() {
      *      ifadelerle kodu sonlandirabilirsiniz. Kod calisirken bu if case'ine girmezse devam eden kod blogu calisir ki
      *      bu da pratikte else case'i demek olur. Bu sekilde yazim kodu biraz daha temiz gosterecektir.
      * **/
+    // onemli olan anladığım kadarıyla return ve throw if bloğunun aşağısına inmeden durduruyor
     if (isStudent) {
         println("Student")
     } else {

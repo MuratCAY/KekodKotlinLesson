@@ -4,7 +4,7 @@ package basics
 //┌────────────────────────────┐
 //│ Created by Gökhan ÖZTÜRK   │
 //│ ────────────────────────── │
-//│ GokhanOZTURK@AndroidEdu.IO │            
+//│ GokhanOZTURK@AndroidEdu.IO │
 //│ ────────────────────────── │
 //│ 9.05.2021                  │
 //└────────────────────────────┘

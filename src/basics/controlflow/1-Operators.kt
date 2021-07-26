@@ -56,6 +56,7 @@ fun main(args: Array<String>) {
 
     println("------------------------------------------------------------")
 
+
     println(grade.compareTo(100) > 0)
     println(grade.compareTo(100) < 0)
     println(grade.compareTo(100) >= 0)
@@ -79,15 +80,15 @@ fun main(args: Array<String>) {
     var a = 20
     var b = 5
     a += b
-    println("a+=b :" + a)
+    println("a+=b :" + a) //25
     a -= b
-    println("a-=b :" + a)
+    println("a-=b :" + a) //20
     a *= b
-    println("a*=b :" + a)
+    println("a*=b :" + a) //100
     a /= b
-    println("a/=b :" + a)
+    println("a/=b :" + a)//20
     a %= b
-    println("a%=b :" + a)
+    println("a%=b :" + a)//0
 
     /*
     	a+=b    a.plusAssign(b)
@@ -101,7 +102,7 @@ fun main(args: Array<String>) {
 
     var numbOne = 10
     var numbTwo = 5
-    var flag = true
+    val flag = true
     println("+a :" + +numbOne)
     println("q-b :" + -numbTwo)
     println("++a :" + ++numbOne)

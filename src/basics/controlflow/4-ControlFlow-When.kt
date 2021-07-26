@@ -58,7 +58,7 @@ fun main() {
     else if (countryCode.toLowerCase() == "fr")
         println("France Vatandası")
     else if (countryCode.toLowerCase() == "ru")
-        println("Russian Vatandası")
+    println("Russian Vatandası")
     else if (countryCode.toLowerCase() == "uk")
         println("United Kingdom Vatandası")
 
@@ -158,7 +158,7 @@ fun main() {
 /* -------------------------------------------------------------------------------------------------------------------*/
 
     // is !is ile bir class'in referansi olunup olunmadigi kontrolu yapilabilir.
-    val phoneNumber: Long = 5316266922
+    val phoneNumber: Long = 531645465456
     when (phoneNumber) {
         is Long -> {
             println("Long value")

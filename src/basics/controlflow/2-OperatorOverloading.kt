@@ -14,8 +14,8 @@ data class PairNumber(val numberOne: Int, val numberTwo: Int) {
     operator fun minus(pairNumber: PairNumber): PairNumber {
 
         val returnPairObject = PairNumber(
-            numberOne - pairNumber.numberOne,
-            numberTwo - pairNumber.numberTwo
+            numberOne + pairNumber.numberOne,
+            numberTwo + pairNumber.numberTwo
         )
 
         println("Sonuc = (${returnPairObject.numberOne} , ${returnPairObject.numberTwo})")
@@ -48,12 +48,13 @@ fun main(args: Array<String>) {
     val pairNumber = pairNumberOne - pairNumberTwo
 
     val pairNumber2 = pairNumberOne - pairNumberTwo
-
-    val pairNumber3 = pairNumberOne - pairNumberTwo
-
-    val pairNumber4 = pairNumberOne - pairNumberTwo
-
-    val pairNumber5 = pairNumberOne - pairNumberTwo
+    //yukarıdaki iki değerde aslında çalışıyor. Overload işleminde print var
+//
+//    val pairNumber3 = pairNumberOne - pairNumberTwo
+//
+//    val pairNumber4 = pairNumberOne - pairNumberTwo
+//
+//    val pairNumber5 = pairNumberOne - pairNumberTwo
 
 //    val pairNumber5 = pairNumberOne.minus(pairNumberTwo)
 
@@ -66,4 +67,6 @@ fun main(args: Array<String>) {
 //    println("Sonuc = (${pairNumber4.numberOne} , ${pairNumber4.numberTwo})")
 //
 //    println("Sonuc = (${pairNumber5.numberOne} , ${pairNumber5.numberTwo})")
+
+    //Tekrar Ettim !
 }
