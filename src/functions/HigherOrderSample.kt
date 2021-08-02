@@ -76,7 +76,7 @@ fun calculate2(
     val area = number * number
     areaInfo(area)
     val perimeter = number * 4
-    perimeterInfo(perimeter, {
+    perimeterInfo(perimeter) {
         totalPerimeter / perimeter
-    })
+    }
 }

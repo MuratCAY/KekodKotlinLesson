@@ -189,4 +189,10 @@ fun main() {
     println(DaysOfWeek.Çarşamba.ordinal)
     println(DaysOfWeek.Çarşamba.dayNumber)
 
+    //Fenerbahçe değeri enum olarak yoksa, error fırlatır
+    Teams.valueOf("Fenerbahçe")
+    //Teams içerisindeki tüm enum constant larını bir liste halinde döner.
+    Teams.values()
+
+
 }
